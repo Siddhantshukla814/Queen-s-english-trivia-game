@@ -10,7 +10,7 @@ jobs:
       - name: WebPageTest
         uses: Siddhantshukla814/webpagetest-github-action@main
         with:
-          apiKey: ${{ secrets.WPT_API_KEY }}
+          apiKey: ${{ secrets.WPTPROD_API_KEY }}
           urls: |
             https://siddhantshukla814.github.io/Queen-s-english-trivia-game-/
           label: "GitHub Action Test"
