@@ -1,0 +1,7 @@
+{
+  "runs": 3,
+  "location": "tencent-beijing",
+  "connectivity": "Cable",
+  "timeout": 10000,
+  "blockAds": true
+}

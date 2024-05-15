@@ -14,4 +14,4 @@ jobs:
           urls: |
             https://siddhantshukla814.github.io/Queen-s-english-trivia-game-/
           label: "GitHub Action Test"
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          wptOptions: './wpt-options.json'
